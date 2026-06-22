@@ -1,5 +1,7 @@
 import requests
-import xml.etree.ElementTree as ET
+
+from data_pipeline.sources.pubmed import search, fetch_details
+from data_pipeline.storage.writer import save_raw_pubmed
 
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
@@ -23,10 +25,6 @@ def search(query: str, retmax: int = 10):
 
 
 def fetch_details(pmids):
-    """
-    Fetch detailed paper information.
-    """
-
     ids = ",".join(pmids)
 
     response = requests.get(
