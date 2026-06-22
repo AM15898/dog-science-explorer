@@ -1,14 +1,10 @@
 import requests
-
+import xml.etree.ElementTree as ET
 
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
 
 def search(query: str, retmax: int = 10):
-    """
-    Search PubMed and return PMIDs.
-    """
-
     response = requests.get(
         f"{BASE_URL}/esearch.fcgi",
         params={
@@ -24,3 +20,24 @@ def search(query: str, retmax: int = 10):
     data = response.json()
 
     return data["esearchresult"]["idlist"]
+
+
+def fetch_details(pmids):
+    """
+    Fetch detailed paper information.
+    """
+
+    ids = ",".join(pmids)
+
+    response = requests.get(
+        f"{BASE_URL}/efetch.fcgi",
+        params={
+            "db": "pubmed",
+            "id": ids,
+            "retmode": "xml",
+        },
+    )
+
+    response.raise_for_status()
+
+    return response.text
