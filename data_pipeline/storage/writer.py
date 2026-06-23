@@ -1,15 +1,32 @@
+import json
+from dataclasses import asdict
 from pathlib import Path
 
+from data_pipeline.models.paper import Paper
 
-def save_raw_pubmed(query: str, content: str):
-    filename = query.lower().replace(" ", "-")
 
-    path = Path("storage/raw/pubmed")
+def save_papers_json(
+    papers: list[Paper],
+    output_file: str,
+):
+    Path(output_file).parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
 
-    path.mkdir(parents=True, exist_ok=True)
+    paper_dicts = [
+        asdict(paper)
+        for paper in papers
+    ]
 
-    file_path = path / f"{filename}.xml"
-
-    file_path.write_text(content)
-
-    return file_path
+    with open(
+        output_file,
+        "w",
+        encoding="utf-8",
+    ) as f:
+        json.dump(
+            paper_dicts,
+            f,
+            indent=2,
+            ensure_ascii=False,
+        )

@@ -4,6 +4,10 @@ from data_pipeline.parsers.pubmed_parser import (
     parse_pubmed_xml,
 )
 
+from data_pipeline.storage.writer import (
+    save_papers_json
+)
+
 
 def main():
     xml_path = Path(
@@ -24,6 +28,15 @@ def main():
         print()
         print("First paper:")
         print(papers[0])
+    
+    save_papers_json(
+        papers,
+        "storage/processed/papers.json",
+    )
+
+    print(
+        "\nSaved dataset to storage/processed/papers.json"
+    )
 
 
 if __name__ == "__main__":
