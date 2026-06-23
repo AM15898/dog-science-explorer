@@ -1,20 +1,14 @@
+from dataclasses import dataclass
 from typing import List, Optional
-from pydantic import BaseModel
 
 
-class Paper(BaseModel):
+@dataclass
+class Paper:
     paper_id: str
-
     title: str
-
-    abstract: Optional[str] = None
-
-    authors: List[str] = []
-
-    journal: Optional[str] = None
-
-    publication_date: Optional[str] = None
-
-    doi: Optional[str] = None
-
+    abstract: Optional[str]
+    authors: List[str]
+    journal: Optional[str]
+    publication_date: Optional[str]
+    doi: Optional[str]
     source: str = "pubmed"
