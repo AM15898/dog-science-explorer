@@ -1,8 +1,5 @@
 import requests
 
-from data_pipeline.sources.pubmed import search, fetch_details
-from data_pipeline.storage.writer import save_raw_pubmed
-
 BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
 

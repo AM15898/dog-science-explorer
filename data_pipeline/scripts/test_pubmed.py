@@ -1,28 +1,27 @@
 from pathlib import Path
 import sys
 
-from data_pipeline.sources.pubmed import search, fetch_details
-from data_pipeline.storage.writer import save_raw_pubmed
-
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.append(str(ROOT))
 
-from data_pipeline.sources.raw.pubmed import search, fetch_details
-
+from data_pipeline.sources.pubmed import search, fetch_details
+from data_pipeline.storage.writer import save_raw_pubmed
 
 def main():
-    pmids = search("golden retriever")
+    query = "golden retriever"
 
-    print("\nFound PMIDs:\n")
+    print(f"\nSearching PubMed for: {query}")
 
-    for pmid in pmids:
-        print(pmid)
+    pmids = search(query)
 
-    print("\nFetching details...\n")
+    print(f"Found {len(pmids)} papers")
 
     xml = fetch_details(pmids)
 
-    print(xml[:2000])
+    file_path = save_raw_pubmed(query, xml)
+
+    print(f"\nSaved raw XML to:")
+    print(file_path)
 
 
 if __name__ == "__main__":
