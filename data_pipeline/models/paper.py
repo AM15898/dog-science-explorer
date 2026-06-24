@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import List, Optional
 
 
@@ -11,4 +11,5 @@ class Paper:
     journal: Optional[str]
     publication_date: Optional[str]
     doi: Optional[str]
+    keywords: List[str] = field(default_factory=list)
     source: str = "pubmed"

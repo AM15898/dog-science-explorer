@@ -1,6 +1,4 @@
 SEED_QUERIES = [
-    "dog",
-    "dogs",
     "canine",
     "canis familiaris",
     "dog genetics",

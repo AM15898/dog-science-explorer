@@ -44,6 +44,27 @@ def parse_pubmed_xml(xml_content: str) -> list[Paper]:
 
             if full_name:
                 authors.append(full_name)
+        
+                year = article.findtext(
+            ".//PubDate/Year",
+            default=""
+        )
+
+        publication_date = (
+            year if year else None
+        )
+
+        doi = article.findtext(
+            ".//ArticleId[@IdType='doi']"
+        )
+
+        keywords = []
+
+        for keyword in article.findall(".//Keyword"):
+            if keyword.text:
+                keywords.append(
+                    keyword.text.strip()
+                )
 
         paper = Paper(
             paper_id=pmid,
@@ -51,8 +72,9 @@ def parse_pubmed_xml(xml_content: str) -> list[Paper]:
             abstract=abstract,
             authors=authors,
             journal=journal,
-            publication_date=None,
-            doi=None,
+            publication_date=publication_date,
+            doi=doi,
+            keywords=keywords
         )
 
         papers.append(paper)
