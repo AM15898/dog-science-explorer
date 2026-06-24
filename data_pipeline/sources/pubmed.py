@@ -36,3 +36,29 @@ def fetch_details(pmids):
     response.raise_for_status()
 
     return response.text
+
+def fetch_details_batched(
+    pmids,
+    batch_size=100,
+):
+    all_xml = []
+
+    for i in range(
+        0,
+        len(pmids),
+        batch_size,
+    ):
+        batch = pmids[
+            i : i + batch_size
+        ]
+
+        print(
+            f"Fetching batch "
+            f"{i // batch_size + 1}"
+        )
+
+        xml = fetch_details(batch)
+
+        all_xml.append(xml)
+
+    return all_xml

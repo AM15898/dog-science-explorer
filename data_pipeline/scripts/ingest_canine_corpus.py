@@ -3,6 +3,7 @@ from data_pipeline.config import SEED_QUERIES
 from data_pipeline.sources.pubmed import (
     search,
     fetch_details,
+    fetch_details_batched
 )
 
 from data_pipeline.parsers.pubmed_parser import (
@@ -52,43 +53,52 @@ def main():
             "No PMIDs were collected."
         )
 
-    xml = fetch_details(
-        list(all_pmids)
+    
+    all_papers = []
+
+    xml_batches = fetch_details_batched(
+        list(all_pmids),
+        batch_size=100,
     )
+
+    for xml in xml_batches:
+        papers = parse_pubmed_xml(xml)
+
+    all_papers.extend(papers)
 
     save_raw_xml(
         xml,
         "storage/raw/pubmed/canine_corpus.xml",
     )
 
-    papers = parse_pubmed_xml(xml)
+    all_papers = parse_pubmed_xml(xml)
 
-    if not papers:
+    if not all_papers:
         raise ValueError(
             "No papers were parsed."
         )
 
     save_papers_json(
-        papers,
+        all_papers,
         "storage/processed/papers.json",
     )
 
     missing_abstracts = sum(
         1
-        for paper in papers
+        for paper in all_papers
         if not paper.abstract
     )
 
     missing_doi = sum(
         1
-        for paper in papers
+        for paper in all_papers
         if not paper.doi
     )
 
     journals = len(
         {
             paper.journal
-            for paper in papers
+            for paper in all_papers
             if paper.journal
         }
     )
@@ -98,7 +108,7 @@ def main():
     print("========================")
     print(f"Queries Run: {query_count}")
     print(f"Unique PMIDs: {len(all_pmids)}")
-    print(f"Papers Parsed: {len(papers)}")
+    print(f"Papers Parsed: {len(all_papers)}")
     print(f"Missing Abstracts: {missing_abstracts}")
     print(f"Missing DOI: {missing_doi}")
     print(f"Journals: {journals}")
