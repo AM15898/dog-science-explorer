@@ -30,3 +30,20 @@ def save_papers_json(
             indent=2,
             ensure_ascii=False,
         )
+
+
+def save_raw_xml(
+    xml_content: str,
+    output_file: str,
+):
+    Path(output_file).parent.mkdir(
+        parents=True,
+        exist_ok=True,
+    )
+
+    with open(
+        output_file,
+        "w",
+        encoding="utf-8",
+    ) as f:
+        f.write(xml_content)
