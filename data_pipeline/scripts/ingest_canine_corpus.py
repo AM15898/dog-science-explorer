@@ -61,17 +61,20 @@ def main():
         batch_size=100,
     )
 
-    for xml in xml_batches:
+    for i, xml in enumerate(xml_batches):
         papers = parse_pubmed_xml(xml)
 
-    all_papers.extend(papers)
+        print(
+            f"Batch {i + 1}: "
+            f"{len(papers)} papers"
+        )
+
+        all_papers.extend(papers)
 
     save_raw_xml(
-        xml,
+        xml_batches[-1],
         "storage/raw/pubmed/canine_corpus.xml",
     )
-
-    all_papers = parse_pubmed_xml(xml)
 
     if not all_papers:
         raise ValueError(
