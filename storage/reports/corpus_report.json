@@ -1,0 +1,604 @@
+{
+  "total_papers": 1181,
+  "unique_journals": 421,
+  "missing_abstracts": 49,
+  "missing_doi": 7,
+  "top_journals": [
+    [
+      "Frontiers in veterinary science",
+      104
+    ],
+    [
+      "Animals : an open access journal from MDPI",
+      68
+    ],
+    [
+      "BMC veterinary research",
+      36
+    ],
+    [
+      "Journal of veterinary internal medicine",
+      35
+    ],
+    [
+      "Veterinary sciences",
+      33
+    ],
+    [
+      "Scientific reports",
+      33
+    ],
+    [
+      "Journal of the American Veterinary Medical Association",
+      25
+    ],
+    [
+      "American journal of veterinary research",
+      25
+    ],
+    [
+      "Veterinary research communications",
+      24
+    ],
+    [
+      "PloS one",
+      22
+    ],
+    [
+      "Veterinary journal (London, England : 1997)",
+      18
+    ],
+    [
+      "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
+      15
+    ],
+    [
+      "Veterinary medicine and science",
+      15
+    ],
+    [
+      "The Veterinary clinics of North America. Small animal practice",
+      13
+    ],
+    [
+      "Veterinary and comparative orthopaedics and traumatology : V.C.O.T",
+      12
+    ],
+    [
+      "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
+      12
+    ],
+    [
+      "Research in veterinary science",
+      10
+    ],
+    [
+      "Molecular biology reports",
+      9
+    ],
+    [
+      "The Veterinary record",
+      8
+    ],
+    [
+      "The Journal of small animal practice",
+      8
+    ]
+  ],
+  "top_authors": [
+    [
+      "Kate E Creevy",
+      8
+    ],
+    [
+      "Daniel E L Promislow",
+      8
+    ],
+    [
+      "Ying Chen",
+      7
+    ],
+    [
+      "Bart J G Broeckx",
+      6
+    ],
+    [
+      "Rang Wang",
+      6
+    ],
+    [
+      "Min Zhu",
+      6
+    ],
+    [
+      "Stephanie McGrath",
+      5
+    ],
+    [
+      "Audrey Ruple",
+      5
+    ],
+    [
+      "Noah Snyder-Mackler",
+      5
+    ],
+    [
+      "Jimmy H Saunders",
+      5
+    ],
+    [
+      "Xiaolong Li",
+      5
+    ],
+    [
+      "Yifeng Qin",
+      5
+    ],
+    [
+      "Kang Ouyang",
+      5
+    ],
+    [
+      "Yeshi Yin",
+      5
+    ],
+    [
+      "Zuzhang Wei",
+      5
+    ],
+    [
+      "Weijian Huang",
+      5
+    ],
+    [
+      "Claudia Giannetto",
+      4
+    ],
+    [
+      "Jessica L Graves",
+      4
+    ],
+    [
+      "Matthew Peloquin",
+      4
+    ],
+    [
+      "Frances L Chen",
+      4
+    ]
+  ],
+  "top_keywords": [
+    [
+      "canine",
+      85
+    ],
+    [
+      "dog",
+      77
+    ],
+    [
+      "Dog",
+      42
+    ],
+    [
+      "Canine",
+      40
+    ],
+    [
+      "dogs",
+      39
+    ],
+    [
+      "Dogs",
+      24
+    ],
+    [
+      "osteoarthritis",
+      21
+    ],
+    [
+      "obesity",
+      12
+    ],
+    [
+      "echocardiography",
+      11
+    ],
+    [
+      "hip dysplasia",
+      11
+    ],
+    [
+      "One Health",
+      11
+    ],
+    [
+      "Aging",
+      10
+    ],
+    [
+      "companion animals",
+      10
+    ],
+    [
+      "cats",
+      10
+    ],
+    [
+      "cancer",
+      10
+    ],
+    [
+      "epilepsy",
+      9
+    ],
+    [
+      "aging",
+      9
+    ],
+    [
+      "microbiome",
+      9
+    ],
+    [
+      "myxomatous mitral valve disease",
+      9
+    ],
+    [
+      "Antimicrobial resistance",
+      8
+    ]
+  ],
+  "publication_years": {
+    "2023": 5,
+    "2024": 21,
+    "2025": 145,
+    "2026": 1009
+  },
+  "top_mesh_terms": [
+    [
+      "Animals",
+      519
+    ],
+    [
+      "Dogs",
+      409
+    ],
+    [
+      "Female",
+      290
+    ],
+    [
+      "Male",
+      285
+    ],
+    [
+      "Dog Diseases",
+      216
+    ],
+    [
+      "Humans",
+      181
+    ],
+    [
+      "Cats",
+      56
+    ],
+    [
+      "Retrospective Studies",
+      50
+    ],
+    [
+      "Mice",
+      39
+    ],
+    [
+      "Pets",
+      33
+    ],
+    [
+      "Adult",
+      30
+    ],
+    [
+      "Aging",
+      29
+    ],
+    [
+      "Prospective Studies",
+      28
+    ],
+    [
+      "Middle Aged",
+      27
+    ],
+    [
+      "Hip Dysplasia, Canine",
+      26
+    ],
+    [
+      "Cat Diseases",
+      24
+    ],
+    [
+      "Biomarkers",
+      23
+    ],
+    [
+      "Cross-Sectional Studies",
+      22
+    ],
+    [
+      "Disease Models, Animal",
+      22
+    ],
+    [
+      "Gastrointestinal Microbiome",
+      22
+    ],
+    [
+      "Signal Transduction",
+      22
+    ],
+    [
+      "Surveys and Questionnaires",
+      21
+    ],
+    [
+      "Diet",
+      20
+    ],
+    [
+      "Treatment Outcome",
+      20
+    ],
+    [
+      "Prevalence",
+      20
+    ],
+    [
+      "Phylogeny",
+      19
+    ],
+    [
+      "Human-Animal Bond",
+      19
+    ],
+    [
+      "Mitral Valve Insufficiency",
+      17
+    ],
+    [
+      "Echocardiography",
+      17
+    ],
+    [
+      "Stifle",
+      17
+    ],
+    [
+      "Young Adult",
+      17
+    ],
+    [
+      "Animal Feed",
+      16
+    ],
+    [
+      "Mitral Valve",
+      16
+    ],
+    [
+      "Ownership",
+      16
+    ],
+    [
+      "Anti-Bacterial Agents",
+      15
+    ],
+    [
+      "Adolescent",
+      15
+    ],
+    [
+      "Neoplasms",
+      15
+    ],
+    [
+      "Aged",
+      14
+    ],
+    [
+      "Rats",
+      14
+    ],
+    [
+      "Feces",
+      13
+    ],
+    [
+      "Osteotomy",
+      13
+    ],
+    [
+      "Child",
+      13
+    ],
+    [
+      "Anterior Cruciate Ligament",
+      13
+    ],
+    [
+      "Madin Darby Canine Kidney Cells",
+      13
+    ],
+    [
+      "Magnetic Resonance Imaging",
+      12
+    ],
+    [
+      "Breeding",
+      12
+    ],
+    [
+      "Longitudinal Studies",
+      12
+    ],
+    [
+      "Risk Factors",
+      12
+    ],
+    [
+      "Radiography",
+      11
+    ],
+    [
+      "Cell Line, Tumor",
+      11
+    ]
+  ],
+  "publication_types": [
+    [
+      "Journal Article",
+      1155
+    ],
+    [
+      "Review",
+      137
+    ],
+    [
+      "Case Reports",
+      82
+    ],
+    [
+      "Comparative Study",
+      17
+    ],
+    [
+      "Published Erratum",
+      15
+    ],
+    [
+      "Research Support, Non-U.S. Gov't",
+      12
+    ],
+    [
+      "Systematic Review",
+      12
+    ],
+    [
+      "Preprint",
+      10
+    ],
+    [
+      "Multicenter Study",
+      6
+    ],
+    [
+      "Research Support, N.I.H., Extramural",
+      6
+    ],
+    [
+      "Editorial",
+      6
+    ],
+    [
+      "English Abstract",
+      5
+    ],
+    [
+      "Letter",
+      5
+    ],
+    [
+      "Randomized Controlled Trial",
+      5
+    ],
+    [
+      "Observational Study, Veterinary",
+      4
+    ],
+    [
+      "Meta-Analysis",
+      4
+    ],
+    [
+      "Randomized Controlled Trial, Veterinary",
+      3
+    ],
+    [
+      "Comment",
+      3
+    ],
+    [
+      "Clinical Trial",
+      3
+    ],
+    [
+      "Observational Study",
+      3
+    ],
+    [
+      "Scoping Review",
+      2
+    ],
+    [
+      "Clinical Trial Protocol",
+      2
+    ],
+    [
+      "Historical Article",
+      2
+    ],
+    [
+      "Dataset",
+      1
+    ],
+    [
+      "Clinical Trial, Veterinary",
+      1
+    ],
+    [
+      "Video-Audio Media",
+      1
+    ],
+    [
+      "Retraction Notice",
+      1
+    ],
+    [
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      1
+    ],
+    [
+      "Pragmatic Clinical Trial",
+      1
+    ]
+  ],
+  "languages": [
+    [
+      "eng",
+      1176
+    ],
+    [
+      "fre",
+      2
+    ],
+    [
+      "ger",
+      1
+    ],
+    [
+      "por",
+      1
+    ],
+    [
+      "chi",
+      1
+    ],
+    [
+      "jpn",
+      1
+    ]
+  ]
+}

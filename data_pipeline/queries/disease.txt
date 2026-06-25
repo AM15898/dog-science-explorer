@@ -1,0 +1,8 @@
+dog disease
+canine disease
+dog oncology
+dog cardiology
+dog orthopedics
+dog neurology
+dog dermatology
+dog infectious disease

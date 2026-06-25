@@ -1,0 +1,7 @@
+service dogs
+assistance dogs
+guide dogs
+hearing dogs
+medical alert dogs
+therapy dogs
+psychiatric service dogs

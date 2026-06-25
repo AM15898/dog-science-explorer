@@ -1,0 +1,118 @@
+DOG SCIENCE EXPLORER CORPUS REPORT
+========================================
+
+Total Papers: 1181
+Unique Journals: 421
+Missing Abstracts: 49
+Missing DOI: 7
+
+Coverage: 2023 - 2026
+
+
+Top Journals
+--------------------
+  104 Frontiers in veterinary science
+   68 Animals : an open access journal from MDPI
+   36 BMC veterinary research
+   35 Journal of veterinary internal medicine
+   33 Veterinary sciences
+   33 Scientific reports
+   25 Journal of the American Veterinary Medical Association
+   25 American journal of veterinary research
+   24 Veterinary research communications
+   22 PloS one
+   18 Veterinary journal (London, England : 1997)
+   15 Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology
+   15 Veterinary medicine and science
+   13 The Veterinary clinics of North America. Small animal practice
+   12 Veterinary and comparative orthopaedics and traumatology : V.C.O.T
+   12 Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association
+   10 Research in veterinary science
+    9 Molecular biology reports
+    8 The Veterinary record
+    8 The Journal of small animal practice
+
+
+Top MeSH Terms
+--------------------
+  519 Animals
+  409 Dogs
+  290 Female
+  285 Male
+  216 Dog Diseases
+  181 Humans
+   56 Cats
+   50 Retrospective Studies
+   39 Mice
+   33 Pets
+   30 Adult
+   29 Aging
+   28 Prospective Studies
+   27 Middle Aged
+   26 Hip Dysplasia, Canine
+   24 Cat Diseases
+   23 Biomarkers
+   22 Cross-Sectional Studies
+   22 Disease Models, Animal
+   22 Gastrointestinal Microbiome
+   22 Signal Transduction
+   21 Surveys and Questionnaires
+   20 Diet
+   20 Treatment Outcome
+   20 Prevalence
+   19 Phylogeny
+   19 Human-Animal Bond
+   17 Mitral Valve Insufficiency
+   17 Echocardiography
+   17 Stifle
+
+
+Publication Types
+--------------------
+ 1155 Journal Article
+  137 Review
+   82 Case Reports
+   17 Comparative Study
+   15 Published Erratum
+   12 Research Support, Non-U.S. Gov't
+   12 Systematic Review
+   10 Preprint
+    6 Multicenter Study
+    6 Research Support, N.I.H., Extramural
+    6 Editorial
+    5 English Abstract
+    5 Letter
+    5 Randomized Controlled Trial
+    4 Observational Study, Veterinary
+    4 Meta-Analysis
+    3 Randomized Controlled Trial, Veterinary
+    3 Comment
+    3 Clinical Trial
+    3 Observational Study
+    2 Scoping Review
+    2 Clinical Trial Protocol
+    2 Historical Article
+    1 Dataset
+    1 Clinical Trial, Veterinary
+    1 Video-Audio Media
+    1 Retraction Notice
+    1 Research Support, U.S. Gov't, Non-P.H.S.
+    1 Pragmatic Clinical Trial
+
+
+Languages
+--------------------
+ 1176 eng
+    2 fre
+    1 ger
+    1 por
+    1 chi
+    1 jpn
+
+
+Publication Years
+--------------------
+2023: 5
+2024: 21
+2025: 145
+2026: 1009
