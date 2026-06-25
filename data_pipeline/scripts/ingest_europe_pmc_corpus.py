@@ -8,7 +8,7 @@ from data_pipeline.storage.writer import save_papers_json
 
 def main():
 
-    all_papers = []
+    all_results = {}
 
     query_count = 0
 
@@ -28,54 +28,65 @@ def main():
 
             results = search(
                 query=query,
-                page_size=50,
+                page_size=500,
             )
 
-            papers = parse(results)
+            new_results = 0
+
+            for result in results:
+
+                pmid = result.get("pmid") or result.get("id")
+
+                if pmid and pmid not in all_results:
+                    all_results[pmid] = result
+                    new_results += 1
 
             print(
-                f"Parsed {len(papers)} papers"
+                f"Found {len(results)} results "
+                f"({new_results} new)"
             )
 
-            all_papers.extend(papers)
+    # Parse once after deduplication
+    papers = parse(list(all_results.values()))
 
     save_papers_json(
-        all_papers,
+        papers,
         "storage/processed/europe_pmc_papers.json",
     )
 
     missing_abstracts = sum(
         1
-        for paper in all_papers
+        for paper in papers
         if not paper.abstract
     )
 
     missing_doi = sum(
         1
-        for paper in all_papers
+        for paper in papers
         if not paper.doi
     )
 
     journals = len(
         {
             paper.journal
-            for paper in all_papers
+            for paper in papers
             if paper.journal
         }
     )
 
     keyword_count = sum(
         1
-        for paper in all_papers
+        for paper in papers
         if paper.keywords
     )
 
     mesh_count = sum(
         1
-        for paper in all_papers
+        for paper in papers
         if paper.mesh_terms
     )
 
+    print()
     print(f"Papers with keywords : {keyword_count}")
     print(f"Papers with MeSH     : {mesh_count}")
 
@@ -83,7 +94,8 @@ def main():
     print("Europe PMC Summary")
     print("========================")
     print(f"Queries Run: {query_count}")
-    print(f"Papers Parsed: {len(all_papers)}")
+    print(f"Unique Results: {len(all_results)}")
+    print(f"Papers Parsed: {len(papers)}")
     print(f"Missing Abstracts: {missing_abstracts}")
     print(f"Missing DOI: {missing_doi}")
     print(f"Journals: {journals}")
