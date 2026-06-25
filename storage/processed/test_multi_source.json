@@ -1,0 +1,86 @@
+[
+  {
+    "paper_id": "42337281",
+    "title": "Striking global similarities in dog-human interactions.",
+    "abstract": "Most of our knowledge about the dog-human relationship comes from studies with dogs from 'WEIRD' (Western, Educated, Industrialized, Rich, and Democratic) societies. Here, we investigate cultural differences in dog-owner interactions worldwide. To achieve this, we developed a test battery comprising six well-established social-cognitive experiments and a questionnaire that assessed the psychological and practical aspects of the dog-human bond. We tested hunting dogs alongside their owners in five rural societies across culturally diverse locations in various countries: Vanuatu, Mongolia, Madagascar, Peru, and Germany. Despite dramatic cultural and environmental differences, we found that dog-human relationships were remarkably similar. Residual differences may be attributed to variations in hunting techniques and differences between WEIRD and non-WEIRD societies.",
+    "authors": [
+      "Juliane Bräuer",
+      "Yana Bender",
+      "Louise Jandke",
+      "Lea Ulverich",
+      "Henriette Mank",
+      "Christoph J Völter",
+      "Lana Takau",
+      "Justorien Rambeloniaina",
+      "Roberto Zariquiey",
+      "Mariana Poblete",
+      "Stefan R Schweinberger",
+      "Russell D Gray"
+    ],
+    "journal": "Scientific reports",
+    "publication_date": "2026",
+    "doi": "10.1038/s41598-026-57657-1",
+    "keywords": [
+      "Animal cognition",
+      "Cultural differences",
+      "Dog–human relationship",
+      "Domestication",
+      "Non-WEIRD countries"
+    ],
+    "language": [
+      "eng"
+    ],
+    "publication_types": [
+      "Journal Article"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Dogs",
+      "Humans",
+      "Human-Animal Bond",
+      "Surveys and Questionnaires",
+      "Female",
+      "Hunting",
+      "Male"
+    ],
+    "source": "pubmed"
+  },
+  {
+    "paper_id": "32726413",
+    "title": "Breed Differences in Dog Cognition Associated with Brain-Expressed Genes and Neurological Functions.",
+    "abstract": "Given their remarkable phenotypic diversity, dogs present a unique opportunity for investigating the genetic bases of cognitive and behavioral traits. Our previous work demonstrated that genetic relatedness among breeds accounts for a substantial portion of variation in dog cognition. Here, we investigated the genetic architecture of breed differences in cognition, seeking to identify genes that contribute to variation in cognitive phenotypes. To do so, we combined cognitive data from the citizen science project Dognition.com with published breed-average genetic polymorphism data, resulting in a dataset of 1654 individuals with cognitive phenotypes representing 49 breeds. We conducted a breed-average genome-wide association study to identify specific polymorphisms associated with breed differences in inhibitory control, communication, memory, and physical reasoning. We found five single nucleotide polymorphisms (SNPs) that reached genome-wide significance after Bonferroni correction, located in EML1, OR52E2, HS3ST5, a U6 spliceosomal RNA, and a long noncoding RNA. When we combined results across multiple SNPs within the same gene, we identified 188 genes implicated in breed differences in cognition. This gene set included more genes than expected by chance that were (1) differentially expressed in brain tissue and (2) involved in nervous system functions including peripheral nervous system development, Wnt signaling, presynapse assembly, and synaptic vesicle exocytosis. These results advance our understanding of the genetic underpinnings of complex cognitive phenotypes and identify specific genetic variants for further research.",
+    "authors": [
+      "Gnanadesikan GE",
+      "Hare B",
+      "Snyder-Mackler N",
+      "Call J",
+      "Kaminski J",
+      "Miklósi Á",
+      "MacLean EL"
+    ],
+    "journal": "Integrative and comparative biology",
+    "publication_date": "2020-10-01",
+    "doi": "10.1093/icb/icaa112",
+    "keywords": [],
+    "language": [
+      "eng"
+    ],
+    "publication_types": [
+      "Research Support, Non-U.S. Gov't",
+      "research-article",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ],
+    "mesh_terms": [
+      "Brain",
+      "Animals",
+      "Dogs",
+      "Cognition",
+      "Phenotype",
+      "Genome",
+      "Genome-Wide Association Study"
+    ],
+    "source": "europe_pmc"
+  }
+]

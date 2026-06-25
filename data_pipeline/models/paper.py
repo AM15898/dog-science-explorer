@@ -12,7 +12,7 @@ class Paper:
     publication_date: Optional[str]
     doi: Optional[str]
     keywords: List[str] = field(default_factory=list)
-    language: str = ""
+    language: list[str] = field(default_factory=list)
     publication_types: list[str] = field(default_factory=list)
     mesh_terms: list[str] = field(default_factory=list)
     source: str = "pubmed"
