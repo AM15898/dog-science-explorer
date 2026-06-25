@@ -1,6 +1,10 @@
 from dataclasses import dataclass, field
 from typing import List, Optional
 
+@dataclass
+class RetrievalRecord:
+    source: str
+    query: str
 
 @dataclass
 class Paper:
@@ -16,3 +20,4 @@ class Paper:
     publication_types: list[str] = field(default_factory=list)
     mesh_terms: list[str] = field(default_factory=list)
     source: str = "pubmed"
+    retrievals: list[RetrievalRecord] = field(default_factory=list)

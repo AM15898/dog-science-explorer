@@ -1,14 +1,21 @@
+from collections import defaultdict
+
 from data_pipeline.config import SEED_QUERIES
 
 from data_pipeline.sources.europe_pmc.client import search
 from data_pipeline.sources.europe_pmc.parser import parse
 
 from data_pipeline.storage.writer import save_papers_json
+from data_pipeline.models import RetrievalRecord
 
+TEST_MODE = True
 
 def main():
 
     all_results = {}
+
+    # Track which queries retrieved each PMID
+    query_hits = defaultdict(set)
 
     query_count = 0
 
@@ -16,7 +23,7 @@ def main():
     print("========================")
     print("Europe PMC Ingestion")
 
-    for category, queries in SEED_QUERIES.items():
+    for category, queries in SEED_QUERIES.list(SEED_QUERIES.items())[:1 if TEST_MODE else None]:
 
         print(f"\n[{category.upper()}]")
 
@@ -28,7 +35,7 @@ def main():
 
             results = search(
                 query=query,
-                page_size=500,
+                page_size=1 if TEST_MODE else 500,
             )
 
             new_results = 0
@@ -37,7 +44,14 @@ def main():
 
                 pmid = result.get("pmid") or result.get("id")
 
-                if pmid and pmid not in all_results:
+                if not pmid:
+                    continue
+
+                # Remember which query retrieved this paper
+                query_hits[pmid].add(query)
+
+                # Keep only one copy of the metadata
+                if pmid not in all_results:
                     all_results[pmid] = result
                     new_results += 1
 
@@ -48,6 +62,18 @@ def main():
 
     # Parse once after deduplication
     papers = parse(list(all_results.values()))
+
+    # Attach retrieval provenance to each paper
+    for paper in papers:
+
+        for query in query_hits.get(paper.pmid, set()):
+
+            paper.retrievals.append(
+                RetrievalRecord(
+                    source="EuropePMC",
+                    query=query,
+                )
+            )
 
     save_papers_json(
         papers,
