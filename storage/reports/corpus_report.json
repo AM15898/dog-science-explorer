@@ -1,573 +1,746 @@
 {
-  "total_papers": 1181,
-  "unique_journals": 421,
-  "missing_abstracts": 49,
-  "missing_doi": 7,
+  "total_papers": 19782,
+  "unique_journals": 3026,
+  "missing_abstracts": 973,
+  "missing_doi": 573,
   "top_journals": [
     [
-      "Frontiers in veterinary science",
-      104
-    ],
-    [
       "Animals : an open access journal from MDPI",
-      68
+      935
     ],
     [
-      "BMC veterinary research",
-      36
-    ],
-    [
-      "Journal of veterinary internal medicine",
-      35
-    ],
-    [
-      "Veterinary sciences",
-      33
+      "Frontiers in veterinary science",
+      903
     ],
     [
       "Scientific reports",
-      33
-    ],
-    [
-      "Journal of the American Veterinary Medical Association",
-      25
-    ],
-    [
-      "American journal of veterinary research",
-      25
-    ],
-    [
-      "Veterinary research communications",
-      24
+      585
     ],
     [
       "PloS one",
-      22
+      542
     ],
     [
-      "Veterinary journal (London, England : 1997)",
-      18
+      "Veterinary sciences",
+      350
     ],
     [
-      "Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology",
-      15
+      "Journal of veterinary internal medicine",
+      337
     ],
     [
-      "Veterinary medicine and science",
-      15
+      "BMC veterinary research",
+      300
     ],
     [
-      "The Veterinary clinics of North America. Small animal practice",
-      13
+      "Journal of the American Veterinary Medical Association",
+      265
     ],
     [
-      "Veterinary and comparative orthopaedics and traumatology : V.C.O.T",
-      12
+      "Veterinary dermatology",
+      218
     ],
     [
-      "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
-      12
-    ],
-    [
-      "Research in veterinary science",
-      10
-    ],
-    [
-      "Molecular biology reports",
-      9
+      "American journal of veterinary research",
+      194
     ],
     [
       "The Veterinary record",
-      8
+      184
+    ],
+    [
+      "Veterinary journal (London, England : 1997)",
+      170
+    ],
+    [
+      "Animal cognition",
+      168
+    ],
+    [
+      "The Veterinary clinics of North America. Small animal practice",
+      154
+    ],
+    [
+      "Research in veterinary science",
+      147
+    ],
+    [
+      "Veterinary research communications",
+      138
+    ],
+    [
+      "International journal of molecular sciences",
+      137
+    ],
+    [
+      "Veterinary medicine and science",
+      124
+    ],
+    [
+      "Genes",
+      124
     ],
     [
       "The Journal of small animal practice",
-      8
+      123
     ]
   ],
   "top_authors": [
     [
+      "Tosso Leeb",
+      104
+    ],
+    [
+      "Vidhya Jagannathan",
+      88
+    ],
+    [
+      "Friederike Range",
+      84
+    ],
+    [
+      "Hannes Lohi",
+      84
+    ],
+    [
+      "Jan S Suchodolski",
+      64
+    ],
+    [
+      "Elaine A Ostrander",
+      59
+    ],
+    [
+      "Helen Christensen",
+      55
+    ],
+    [
+      "\u00c1d\u00e1m Mikl\u00f3si",
+      54
+    ],
+    [
+      "Kelly S Swanson",
+      52
+    ],
+    [
+      "Dan G O'Neill",
+      51
+    ],
+    [
+      "Sarah Marshall-Pescini",
+      47
+    ],
+    [
+      "Ludwig Huber",
+      46
+    ],
+    [
       "Kate E Creevy",
-      8
+      46
     ],
     [
-      "Daniel E L Promislow",
-      8
+      "Aliza Werner-Seidler",
+      46
     ],
     [
-      "Ying Chen",
-      7
+      "Cynthia M Otto",
+      46
     ],
     [
-      "Bart J G Broeckx",
-      6
+      "Marjo K Hyt\u00f6nen",
+      45
     ],
     [
-      "Rang Wang",
-      6
+      "Daniel S Mills",
+      44
     ],
     [
-      "Min Zhu",
-      6
+      "Enik\u0151 Kubinyi",
+      42
     ],
     [
-      "Stephanie McGrath",
-      5
+      "M\u00e1rta G\u00e1csi",
+      40
     ],
     [
-      "Audrey Ruple",
-      5
-    ],
-    [
-      "Noah Snyder-Mackler",
-      5
-    ],
-    [
-      "Jimmy H Saunders",
-      5
-    ],
-    [
-      "Xiaolong Li",
-      5
-    ],
-    [
-      "Yifeng Qin",
-      5
-    ],
-    [
-      "Kang Ouyang",
-      5
-    ],
-    [
-      "Yeshi Yin",
-      5
-    ],
-    [
-      "Zuzhang Wei",
-      5
-    ],
-    [
-      "Weijian Huang",
-      5
-    ],
-    [
-      "Claudia Giannetto",
-      4
-    ],
-    [
-      "Jessica L Graves",
-      4
-    ],
-    [
-      "Matthew Peloquin",
-      4
-    ],
-    [
-      "Frances L Chen",
-      4
+      "Ya-Ping Zhang",
+      40
     ]
   ],
   "top_keywords": [
     [
-      "canine",
-      85
-    ],
-    [
       "dog",
-      77
+      1096
     ],
     [
-      "Dog",
-      42
-    ],
-    [
-      "Canine",
-      40
+      "canine",
+      895
     ],
     [
       "dogs",
-      39
+      611
+    ],
+    [
+      "Dog",
+      579
+    ],
+    [
+      "Canine",
+      406
     ],
     [
       "Dogs",
-      24
-    ],
-    [
-      "osteoarthritis",
-      21
-    ],
-    [
-      "obesity",
-      12
-    ],
-    [
-      "echocardiography",
-      11
-    ],
-    [
-      "hip dysplasia",
-      11
+      332
     ],
     [
       "One Health",
-      11
-    ],
-    [
-      "Aging",
-      10
+      163
     ],
     [
       "companion animals",
-      10
+      126
     ],
     [
       "cats",
-      10
+      125
     ],
     [
-      "cancer",
-      10
+      "obesity",
+      119
     ],
     [
-      "epilepsy",
-      9
-    ],
-    [
-      "aging",
-      9
+      "animal welfare",
+      108
     ],
     [
       "microbiome",
-      9
+      108
     ],
     [
-      "myxomatous mitral valve disease",
-      9
+      "cat",
+      105
     ],
     [
-      "Antimicrobial resistance",
-      8
+      "aging",
+      95
+    ],
+    [
+      "Canis lupus familiaris",
+      93
+    ],
+    [
+      "gut microbiota",
+      91
+    ],
+    [
+      "COVID-19",
+      91
+    ],
+    [
+      "artificial intelligence",
+      91
+    ],
+    [
+      "inflammation",
+      90
+    ],
+    [
+      "antimicrobial resistance",
+      88
     ]
   ],
   "publication_years": {
-    "2023": 5,
-    "2024": 21,
-    "2025": 145,
-    "2026": 1009
+    "1903": 1,
+    "1951": 1,
+    "1954": 1,
+    "1961": 2,
+    "1965": 1,
+    "1967": 4,
+    "1968": 1,
+    "1969": 6,
+    "1970": 3,
+    "1971": 2,
+    "1972": 4,
+    "1973": 7,
+    "1974": 13,
+    "1975": 28,
+    "1976": 16,
+    "1977": 19,
+    "1978": 16,
+    "1979": 14,
+    "1980": 27,
+    "1981": 27,
+    "1982": 23,
+    "1983": 18,
+    "1984": 17,
+    "1985": 11,
+    "1986": 24,
+    "1987": 17,
+    "1988": 18,
+    "1989": 16,
+    "1990": 16,
+    "1991": 17,
+    "1992": 15,
+    "1993": 27,
+    "1994": 14,
+    "1995": 15,
+    "1996": 18,
+    "1997": 31,
+    "1998": 18,
+    "1999": 30,
+    "2000": 34,
+    "2001": 38,
+    "2002": 46,
+    "2003": 50,
+    "2004": 45,
+    "2005": 66,
+    "2006": 72,
+    "2007": 63,
+    "2008": 60,
+    "2009": 73,
+    "2010": 85,
+    "2011": 89,
+    "2012": 109,
+    "2013": 110,
+    "2014": 152,
+    "2015": 183,
+    "2016": 173,
+    "2017": 318,
+    "2018": 333,
+    "2019": 448,
+    "2020": 621,
+    "2021": 904,
+    "2022": 1214,
+    "2023": 1805,
+    "2024": 2561,
+    "2025": 4111,
+    "2026": 5450
   },
   "top_mesh_terms": [
     [
       "Animals",
-      519
+      12604
     ],
     [
       "Dogs",
-      409
-    ],
-    [
-      "Female",
-      290
-    ],
-    [
-      "Male",
-      285
-    ],
-    [
-      "Dog Diseases",
-      216
+      9967
     ],
     [
       "Humans",
-      181
+      5974
+    ],
+    [
+      "Male",
+      5262
+    ],
+    [
+      "Female",
+      5208
+    ],
+    [
+      "Dog Diseases",
+      3966
     ],
     [
       "Cats",
-      56
-    ],
-    [
-      "Retrospective Studies",
-      50
+      1188
     ],
     [
       "Mice",
-      39
-    ],
-    [
-      "Pets",
-      33
+      1140
     ],
     [
       "Adult",
-      30
+      898
     ],
     [
-      "Aging",
-      29
-    ],
-    [
-      "Prospective Studies",
-      28
-    ],
-    [
-      "Middle Aged",
-      27
-    ],
-    [
-      "Hip Dysplasia, Canine",
-      26
-    ],
-    [
-      "Cat Diseases",
-      24
-    ],
-    [
-      "Biomarkers",
-      23
-    ],
-    [
-      "Cross-Sectional Studies",
-      22
-    ],
-    [
-      "Disease Models, Animal",
-      22
-    ],
-    [
-      "Gastrointestinal Microbiome",
-      22
-    ],
-    [
-      "Signal Transduction",
-      22
-    ],
-    [
-      "Surveys and Questionnaires",
-      21
-    ],
-    [
-      "Diet",
-      20
-    ],
-    [
-      "Treatment Outcome",
-      20
-    ],
-    [
-      "Prevalence",
-      20
+      "Retrospective Studies",
+      757
     ],
     [
       "Phylogeny",
-      19
+      754
     ],
     [
-      "Human-Animal Bond",
-      19
+      "Behavior, Animal",
+      735
     ],
     [
-      "Mitral Valve Insufficiency",
-      17
+      "Middle Aged",
+      653
     ],
     [
-      "Echocardiography",
-      17
+      "Cat Diseases",
+      628
     ],
     [
-      "Stifle",
-      17
+      "Disease Models, Animal",
+      596
     ],
     [
-      "Young Adult",
-      17
+      "Pets",
+      579
     ],
     [
-      "Animal Feed",
-      16
+      "Aging",
+      562
     ],
     [
-      "Mitral Valve",
-      16
-    ],
-    [
-      "Ownership",
-      16
-    ],
-    [
-      "Anti-Bacterial Agents",
-      15
-    ],
-    [
-      "Adolescent",
-      15
-    ],
-    [
-      "Neoplasms",
-      15
-    ],
-    [
-      "Aged",
-      14
+      "Surveys and Questionnaires",
+      509
     ],
     [
       "Rats",
-      14
+      494
     ],
     [
-      "Feces",
-      13
+      "Young Adult",
+      475
     ],
     [
-      "Osteotomy",
-      13
+      "Adolescent",
+      461
     ],
     [
       "Child",
-      13
+      460
     ],
     [
-      "Anterior Cruciate Ligament",
-      13
+      "Aged",
+      416
     ],
     [
-      "Madin Darby Canine Kidney Cells",
-      13
+      "Feces",
+      398
     ],
     [
-      "Magnetic Resonance Imaging",
-      12
+      "Prospective Studies",
+      382
+    ],
+    [
+      "Treatment Outcome",
+      379
+    ],
+    [
+      "Human-Animal Bond",
+      375
+    ],
+    [
+      "Wolves",
+      362
+    ],
+    [
+      "Brain",
+      345
+    ],
+    [
+      "Prevalence",
+      344
+    ],
+    [
+      "Cross-Sectional Studies",
+      344
+    ],
+    [
+      "Diet",
+      334
     ],
     [
       "Breeding",
-      12
+      328
     ],
     [
-      "Longitudinal Studies",
-      12
+      "Genotype",
+      318
+    ],
+    [
+      "Madin Darby Canine Kidney Cells",
+      313
+    ],
+    [
+      "Anti-Bacterial Agents",
+      312
     ],
     [
       "Risk Factors",
-      12
+      311
     ],
     [
-      "Radiography",
-      11
+      "Polymorphism, Single Nucleotide",
+      311
     ],
     [
-      "Cell Line, Tumor",
-      11
+      "Gastrointestinal Microbiome",
+      302
+    ],
+    [
+      "Genetic Variation",
+      295
+    ],
+    [
+      "Genome-Wide Association Study",
+      292
+    ],
+    [
+      "Signal Transduction",
+      282
+    ],
+    [
+      "Mutation",
+      282
+    ],
+    [
+      "Species Specificity",
+      281
+    ],
+    [
+      "Cattle",
+      278
+    ],
+    [
+      "Phenotype",
+      277
+    ],
+    [
+      "Animal Feed",
+      273
+    ],
+    [
+      "Biomarkers",
+      273
+    ],
+    [
+      "Neoplasms",
+      251
+    ],
+    [
+      "Child, Preschool",
+      242
     ]
   ],
   "publication_types": [
     [
       "Journal Article",
-      1155
-    ],
-    [
-      "Review",
-      137
-    ],
-    [
-      "Case Reports",
-      82
-    ],
-    [
-      "Comparative Study",
-      17
-    ],
-    [
-      "Published Erratum",
-      15
+      19463
     ],
     [
       "Research Support, Non-U.S. Gov't",
-      12
+      2816
     ],
     [
-      "Systematic Review",
-      12
+      "Review",
+      2098
     ],
     [
-      "Preprint",
-      10
-    ],
-    [
-      "Multicenter Study",
-      6
+      "Case Reports",
+      1100
     ],
     [
       "Research Support, N.I.H., Extramural",
-      6
+      609
     ],
     [
-      "Editorial",
-      6
-    ],
-    [
-      "English Abstract",
-      5
-    ],
-    [
-      "Letter",
-      5
-    ],
-    [
-      "Randomized Controlled Trial",
-      5
-    ],
-    [
-      "Observational Study, Veterinary",
-      4
-    ],
-    [
-      "Meta-Analysis",
-      4
-    ],
-    [
-      "Randomized Controlled Trial, Veterinary",
-      3
-    ],
-    [
-      "Comment",
-      3
-    ],
-    [
-      "Clinical Trial",
-      3
-    ],
-    [
-      "Observational Study",
-      3
-    ],
-    [
-      "Scoping Review",
-      2
-    ],
-    [
-      "Clinical Trial Protocol",
-      2
-    ],
-    [
-      "Historical Article",
-      2
-    ],
-    [
-      "Dataset",
-      1
-    ],
-    [
-      "Clinical Trial, Veterinary",
-      1
-    ],
-    [
-      "Video-Audio Media",
-      1
-    ],
-    [
-      "Retraction Notice",
-      1
+      "Comparative Study",
+      524
     ],
     [
       "Research Support, U.S. Gov't, Non-P.H.S.",
+      299
+    ],
+    [
+      "Systematic Review",
+      236
+    ],
+    [
+      "English Abstract",
+      230
+    ],
+    [
+      "Historical Article",
+      183
+    ],
+    [
+      "Randomized Controlled Trial",
+      175
+    ],
+    [
+      "Multicenter Study",
+      140
+    ],
+    [
+      "Randomized Controlled Trial, Veterinary",
+      136
+    ],
+    [
+      "Letter",
+      110
+    ],
+    [
+      "Meta-Analysis",
+      110
+    ],
+    [
+      "Comment",
+      99
+    ],
+    [
+      "Research Support, U.S. Gov't, P.H.S.",
+      92
+    ],
+    [
+      "Editorial",
+      80
+    ],
+    [
+      "Preprint",
+      77
+    ],
+    [
+      "News",
+      76
+    ],
+    [
+      "Validation Study",
+      64
+    ],
+    [
+      "Observational Study",
+      57
+    ],
+    [
+      "Published Erratum",
+      56
+    ],
+    [
+      "Observational Study, Veterinary",
+      54
+    ],
+    [
+      "Evaluation Study",
+      52
+    ],
+    [
+      "Scoping Review",
+      51
+    ],
+    [
+      "Research Support, N.I.H., Intramural",
+      45
+    ],
+    [
+      "Clinical Trial, Veterinary",
+      41
+    ],
+    [
+      "Clinical Trial",
+      34
+    ],
+    [
+      "Clinical Trial Protocol",
+      29
+    ],
+    [
+      "Video-Audio Media",
+      24
+    ],
+    [
+      "Practice Guideline",
+      22
+    ],
+    [
+      "Consensus Statement",
+      21
+    ],
+    [
+      "Biography",
+      17
+    ],
+    [
+      "Portrait",
+      13
+    ],
+    [
+      "Introductory Journal Article",
+      12
+    ],
+    [
+      "Clinical Trial, Phase I",
+      11
+    ],
+    [
+      "Clinical Trial, Phase II",
+      10
+    ],
+    [
+      "Retracted Publication",
+      10
+    ],
+    [
+      "Dataset",
+      8
+    ],
+    [
+      "Controlled Clinical Trial",
+      5
+    ],
+    [
+      "Personal Narrative",
+      4
+    ],
+    [
+      "Retraction Notice",
+      4
+    ],
+    [
+      "Clinical Trial, Phase III",
+      4
+    ],
+    [
+      "Guideline",
+      3
+    ],
+    [
+      "Interview",
+      3
+    ],
+    [
+      "Equivalence Trial",
+      3
+    ],
+    [
+      "Adaptive Clinical Trial",
+      2
+    ],
+    [
+      "Network Meta-Analysis",
+      2
+    ],
+    [
+      "Conference Proceedings",
+      2
+    ],
+    [
+      "Address",
+      1
+    ],
+    [
+      "Twin Study",
+      1
+    ],
+    [
+      "Clinical Conference",
+      1
+    ],
+    [
+      "Bibliography",
+      1
+    ],
+    [
+      "Clinical Study",
+      1
+    ],
+    [
+      "Expression of Concern",
       1
     ],
     [
@@ -578,26 +751,74 @@
   "languages": [
     [
       "eng",
-      1176
+      19383
     ],
     [
-      "fre",
-      2
+      "rus",
+      142
     ],
     [
       "ger",
-      1
-    ],
-    [
-      "por",
-      1
+      90
     ],
     [
       "chi",
-      1
+      78
+    ],
+    [
+      "fre",
+      43
     ],
     [
       "jpn",
+      14
+    ],
+    [
+      "spa",
+      9
+    ],
+    [
+      "dut",
+      8
+    ],
+    [
+      "ita",
+      6
+    ],
+    [
+      "por",
+      6
+    ],
+    [
+      "hun",
+      4
+    ],
+    [
+      "pol",
+      3
+    ],
+    [
+      "srp",
+      2
+    ],
+    [
+      "dan",
+      2
+    ],
+    [
+      "swe",
+      2
+    ],
+    [
+      "tur",
+      1
+    ],
+    [
+      "cze",
+      1
+    ],
+    [
+      "bul",
       1
     ]
   ]

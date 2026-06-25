@@ -1,118 +1,219 @@
 DOG SCIENCE EXPLORER CORPUS REPORT
 ========================================
 
-Total Papers: 1181
-Unique Journals: 421
-Missing Abstracts: 49
-Missing DOI: 7
+Total Papers: 19782
+Unique Journals: 3026
+Missing Abstracts: 973
+Missing DOI: 573
 
-Coverage: 2023 - 2026
+Coverage: 1903 - 2026
 
 
 Top Journals
 --------------------
-  104 Frontiers in veterinary science
-   68 Animals : an open access journal from MDPI
-   36 BMC veterinary research
-   35 Journal of veterinary internal medicine
-   33 Veterinary sciences
-   33 Scientific reports
-   25 Journal of the American Veterinary Medical Association
-   25 American journal of veterinary research
-   24 Veterinary research communications
-   22 PloS one
-   18 Veterinary journal (London, England : 1997)
-   15 Journal of veterinary cardiology : the official journal of the European Society of Veterinary Cardiology
-   15 Veterinary medicine and science
-   13 The Veterinary clinics of North America. Small animal practice
-   12 Veterinary and comparative orthopaedics and traumatology : V.C.O.T
-   12 Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association
-   10 Research in veterinary science
-    9 Molecular biology reports
-    8 The Veterinary record
-    8 The Journal of small animal practice
+  935 Animals : an open access journal from MDPI
+  903 Frontiers in veterinary science
+  585 Scientific reports
+  542 PloS one
+  350 Veterinary sciences
+  337 Journal of veterinary internal medicine
+  300 BMC veterinary research
+  265 Journal of the American Veterinary Medical Association
+  218 Veterinary dermatology
+  194 American journal of veterinary research
+  184 The Veterinary record
+  170 Veterinary journal (London, England : 1997)
+  168 Animal cognition
+  154 The Veterinary clinics of North America. Small animal practice
+  147 Research in veterinary science
+  138 Veterinary research communications
+  137 International journal of molecular sciences
+  124 Veterinary medicine and science
+  124 Genes
+  123 The Journal of small animal practice
 
 
 Top MeSH Terms
 --------------------
-  519 Animals
-  409 Dogs
-  290 Female
-  285 Male
-  216 Dog Diseases
-  181 Humans
-   56 Cats
-   50 Retrospective Studies
-   39 Mice
-   33 Pets
-   30 Adult
-   29 Aging
-   28 Prospective Studies
-   27 Middle Aged
-   26 Hip Dysplasia, Canine
-   24 Cat Diseases
-   23 Biomarkers
-   22 Cross-Sectional Studies
-   22 Disease Models, Animal
-   22 Gastrointestinal Microbiome
-   22 Signal Transduction
-   21 Surveys and Questionnaires
-   20 Diet
-   20 Treatment Outcome
-   20 Prevalence
-   19 Phylogeny
-   19 Human-Animal Bond
-   17 Mitral Valve Insufficiency
-   17 Echocardiography
-   17 Stifle
+12604 Animals
+ 9967 Dogs
+ 5974 Humans
+ 5262 Male
+ 5208 Female
+ 3966 Dog Diseases
+ 1188 Cats
+ 1140 Mice
+  898 Adult
+  757 Retrospective Studies
+  754 Phylogeny
+  735 Behavior, Animal
+  653 Middle Aged
+  628 Cat Diseases
+  596 Disease Models, Animal
+  579 Pets
+  562 Aging
+  509 Surveys and Questionnaires
+  494 Rats
+  475 Young Adult
+  461 Adolescent
+  460 Child
+  416 Aged
+  398 Feces
+  382 Prospective Studies
+  379 Treatment Outcome
+  375 Human-Animal Bond
+  362 Wolves
+  345 Brain
+  344 Prevalence
 
 
 Publication Types
 --------------------
- 1155 Journal Article
-  137 Review
-   82 Case Reports
-   17 Comparative Study
-   15 Published Erratum
-   12 Research Support, Non-U.S. Gov't
-   12 Systematic Review
-   10 Preprint
-    6 Multicenter Study
-    6 Research Support, N.I.H., Extramural
-    6 Editorial
-    5 English Abstract
-    5 Letter
-    5 Randomized Controlled Trial
-    4 Observational Study, Veterinary
-    4 Meta-Analysis
-    3 Randomized Controlled Trial, Veterinary
-    3 Comment
-    3 Clinical Trial
-    3 Observational Study
-    2 Scoping Review
-    2 Clinical Trial Protocol
-    2 Historical Article
-    1 Dataset
-    1 Clinical Trial, Veterinary
-    1 Video-Audio Media
-    1 Retraction Notice
-    1 Research Support, U.S. Gov't, Non-P.H.S.
+19463 Journal Article
+ 2816 Research Support, Non-U.S. Gov't
+ 2098 Review
+ 1100 Case Reports
+  609 Research Support, N.I.H., Extramural
+  524 Comparative Study
+  299 Research Support, U.S. Gov't, Non-P.H.S.
+  236 Systematic Review
+  230 English Abstract
+  183 Historical Article
+  175 Randomized Controlled Trial
+  140 Multicenter Study
+  136 Randomized Controlled Trial, Veterinary
+  110 Letter
+  110 Meta-Analysis
+   99 Comment
+   92 Research Support, U.S. Gov't, P.H.S.
+   80 Editorial
+   77 Preprint
+   76 News
+   64 Validation Study
+   57 Observational Study
+   56 Published Erratum
+   54 Observational Study, Veterinary
+   52 Evaluation Study
+   51 Scoping Review
+   45 Research Support, N.I.H., Intramural
+   41 Clinical Trial, Veterinary
+   34 Clinical Trial
+   29 Clinical Trial Protocol
+   24 Video-Audio Media
+   22 Practice Guideline
+   21 Consensus Statement
+   17 Biography
+   13 Portrait
+   12 Introductory Journal Article
+   11 Clinical Trial, Phase I
+   10 Clinical Trial, Phase II
+   10 Retracted Publication
+    8 Dataset
+    5 Controlled Clinical Trial
+    4 Personal Narrative
+    4 Retraction Notice
+    4 Clinical Trial, Phase III
+    3 Guideline
+    3 Interview
+    3 Equivalence Trial
+    2 Adaptive Clinical Trial
+    2 Network Meta-Analysis
+    2 Conference Proceedings
+    1 Address
+    1 Twin Study
+    1 Clinical Conference
+    1 Bibliography
+    1 Clinical Study
+    1 Expression of Concern
     1 Pragmatic Clinical Trial
 
 
 Languages
 --------------------
- 1176 eng
-    2 fre
-    1 ger
-    1 por
-    1 chi
-    1 jpn
+19383 eng
+  142 rus
+   90 ger
+   78 chi
+   43 fre
+   14 jpn
+    9 spa
+    8 dut
+    6 ita
+    6 por
+    4 hun
+    3 pol
+    2 srp
+    2 dan
+    2 swe
+    1 tur
+    1 cze
+    1 bul
 
 
 Publication Years
 --------------------
-2023: 5
-2024: 21
-2025: 145
-2026: 1009
+1903: 1
+1951: 1
+1954: 1
+1961: 2
+1965: 1
+1967: 4
+1968: 1
+1969: 6
+1970: 3
+1971: 2
+1972: 4
+1973: 7
+1974: 13
+1975: 28
+1976: 16
+1977: 19
+1978: 16
+1979: 14
+1980: 27
+1981: 27
+1982: 23
+1983: 18
+1984: 17
+1985: 11
+1986: 24
+1987: 17
+1988: 18
+1989: 16
+1990: 16
+1991: 17
+1992: 15
+1993: 27
+1994: 14
+1995: 15
+1996: 18
+1997: 31
+1998: 18
+1999: 30
+2000: 34
+2001: 38
+2002: 46
+2003: 50
+2004: 45
+2005: 66
+2006: 72
+2007: 63
+2008: 60
+2009: 73
+2010: 85
+2011: 89
+2012: 109
+2013: 110
+2014: 152
+2015: 183
+2016: 173
+2017: 318
+2018: 333
+2019: 448
+2020: 621
+2021: 904
+2022: 1214
+2023: 1805
+2024: 2561
+2025: 4111
+2026: 5450

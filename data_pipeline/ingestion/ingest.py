@@ -1,13 +1,16 @@
+from pathlib import Path
+
 from data_pipeline.ingestion.discover import discover_pmids
 from data_pipeline.ingestion.fetch import fetch_all_xml
 from data_pipeline.parsers.pubmed_parser import parse_pubmed_xml
 from data_pipeline.storage.writer import save_papers_json
-from pathlib import Path
 
 
-def main():
+def main(test_mode: bool = False):
 
-    discovery = discover_pmids()
+    discovery = discover_pmids(
+        retmax=1 if test_mode else 500
+    )
 
     pmids = sorted(discovery.all_pmids)
 
@@ -33,20 +36,24 @@ def main():
             f"| Total papers: {len(papers)}"
         )
 
-    OUTPUT_FILE = Path("storage/processed/papers.json")
+    output_file = (
+        Path("storage/processed/test_papers.json")
+        if test_mode
+        else Path("storage/processed/papers.json")
+    )
 
     save_papers_json(
         papers,
-        OUTPUT_FILE,
-        overwrite=True
+        output_file,
     )
 
     print()
     print("=" * 60)
     print("Finished")
     print("=" * 60)
-    print(f"Papers saved: {len(papers)}")
+    print(f"Papers saved : {len(papers)}")
+    print(f"Output       : {output_file}")
 
 
 if __name__ == "__main__":
-    main()
+    main(test_mode=False)
