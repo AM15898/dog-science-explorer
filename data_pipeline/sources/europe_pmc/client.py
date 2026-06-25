@@ -5,7 +5,7 @@ BASE_URL = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 
 def search(
     query: str,
-    page_size: int = 25,
+    page_size: int = 500,
 ):
     response = requests.get(
         BASE_URL,
