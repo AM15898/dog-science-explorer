@@ -6,9 +6,9 @@ from data_pipeline.sources.europe_pmc.client import search
 from data_pipeline.sources.europe_pmc.parser import parse
 
 from data_pipeline.storage.writer import save_papers_json
-from data_pipeline.models import RetrievalRecord
+from data_pipeline.models.paper import RetrievalRecord
 
-TEST_MODE = True
+TEST_MODE = False
 
 def main():
 
@@ -23,7 +23,7 @@ def main():
     print("========================")
     print("Europe PMC Ingestion")
 
-    for category, queries in SEED_QUERIES.list(SEED_QUERIES.items())[:1 if TEST_MODE else None]:
+    for category, queries in list(SEED_QUERIES.items())[:1 if TEST_MODE else None]:
 
         print(f"\n[{category.upper()}]")
 
@@ -66,7 +66,7 @@ def main():
     # Attach retrieval provenance to each paper
     for paper in papers:
 
-        for query in query_hits.get(paper.pmid, set()):
+        for query in query_hits.get(paper.paper_id, set()):
 
             paper.retrievals.append(
                 RetrievalRecord(

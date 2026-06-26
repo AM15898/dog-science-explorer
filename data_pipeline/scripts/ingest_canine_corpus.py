@@ -1,12 +1,15 @@
 from data_pipeline.config import SEED_QUERIES
+from collections import defaultdict
 
-from data_pipeline.sources.pubmed import (
+from data_pipeline.models.paper import RetrievalRecord
+
+from data_pipeline.sources.pubmed.client import (
     search,
     fetch_details,
     fetch_details_batched
 )
 
-from data_pipeline.parsers.pubmed_parser import (
+from data_pipeline.sources.pubmed.parser import (
     parse_pubmed_xml,
 )
 
@@ -15,33 +18,43 @@ from data_pipeline.storage.writer import (
     save_raw_xml,
 )
 
+#######Turn ON for testing#########
+
+TEST_MODE = False
+
+###################################
+
 
 def main():
     all_pmids = set()
+
+    query_hits = defaultdict(set)
 
     query_count = 0
 
     print("\nDog Science Explorer")
     print("========================")
 
-    for category, queries in SEED_QUERIES.items():
+    for category, queries in list(SEED_QUERIES.items())[:1 if TEST_MODE else None]:
         print(f"\n[{category.upper()}]")
 
-        for query in queries:
+        for query in queries[:1 if TEST_MODE else None]:
             query_count += 1
 
             print(f"Searching: {query}")
 
             pmids = search(
                 query=query,
-                retmax=50,
+                retmax=1 if TEST_MODE else 500,
             )
 
             print(
                 f"Found {len(pmids)} PMIDs"
             )
 
-            all_pmids.update(pmids)
+            for pmid in pmids:
+                all_pmids.add(pmid)
+                query_hits[str(pmid)].add(query)
 
     print("\n========================")
     print(
@@ -70,6 +83,31 @@ def main():
         )
 
         all_papers.extend(papers)
+
+    print("\n========================")
+    print("DEBUG")
+    print("========================")
+    print("Query hits:")
+    print(dict(query_hits))
+
+    for paper in all_papers:
+
+        print(f"\nPaper ID: {paper.paper_id}")
+
+        matching_queries = query_hits.get(str(paper.paper_id), set())
+
+        print(f"Matching queries: {matching_queries}")
+
+        for query in matching_queries:
+
+            paper.retrievals.append(
+                RetrievalRecord(
+                    source="PubMed",
+                    query=query,
+                )
+            )
+
+        print(f"Retrievals: {paper.retrievals}")
 
     save_raw_xml(
         xml_batches[-1],
