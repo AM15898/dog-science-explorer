@@ -10,15 +10,40 @@ venv/
 .DS_Store
 
 # IDE
-.vscode/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
 
-# Python caches
+# Virtual environments
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
 .pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
 .mypy_cache/
 
-# Build artifacts
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Build
 build/
 dist/
+*.egg-info/
 
-# Environment variables
-.env
+# Temporary files
+*.log
