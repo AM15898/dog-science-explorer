@@ -1,10 +1,10 @@
 import json
 
 
-with open("storage/processed/papers.json") as f:
+with open("storage/processed/pubmed.json") as f:
     pubmed = json.load(f)
 
-with open("storage/processed/europe_pmc_papers.json") as f:
+with open("storage/processed/europemc.json") as f:
     europe_pmc = json.load(f)
 
 

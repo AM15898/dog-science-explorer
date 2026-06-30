@@ -19,5 +19,12 @@ class Paper:
     language: list[str] = field(default_factory=list)
     publication_types: list[str] = field(default_factory=list)
     mesh_terms: list[str] = field(default_factory=list)
-    source: str = "pubmed"
+
+    # New fields
+    citation_count: int | None = None
+    reference_count: int | None = None
+    concepts: list[str] = field(default_factory=list)
+    topics: list[str] = field(default_factory=list)
+
+    source: str = ""
     retrievals: list[RetrievalRecord] = field(default_factory=list)

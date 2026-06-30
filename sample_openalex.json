@@ -1,0 +1,1275 @@
+{
+  "id": "https://openalex.org/W2934456397",
+  "doi": "https://doi.org/10.1038/s41584-019-0202-1",
+  "title": "Spontaneous dog osteoarthritis \u2014 a One Medicine vision",
+  "display_name": "Spontaneous dog osteoarthritis \u2014 a One Medicine vision",
+  "relevance_score": 1480.8387,
+  "publication_year": 2019,
+  "publication_date": "2019-04-05",
+  "ids": {
+    "openalex": "https://openalex.org/W2934456397",
+    "doi": "https://doi.org/10.1038/s41584-019-0202-1",
+    "mag": "2934456397",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/30953036"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1038/s41584-019-0202-1",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/s41584-019-0202-1",
+    "pdf_url": "https://www.nature.com/articles/s41584-019-0202-1.pdf",
+    "source": {
+      "id": "https://openalex.org/S78310130",
+      "display_name": "Nature Reviews Rheumatology",
+      "issn_l": "1759-4790",
+      "issn": [
+        "1759-4790",
+        "1759-4804"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Nature Reviews Rheumatology",
+    "raw_type": "journal-article"
+  },
+  "type": "review",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.nature.com/articles/s41584-019-0202-1.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5002706277",
+        "display_name": "Richard Meeson",
+        "orcid": "https://orcid.org/0000-0002-8972-7067"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124357947",
+          "display_name": "University of London",
+          "ror": "https://ror.org/04cw6st05",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I133836048",
+          "display_name": "Royal Veterinary College",
+          "ror": "https://ror.org/01wka8n18",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I133836048"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Richard L. Meeson",
+      "raw_affiliation_strings": [
+        "Department of Clinical Services and Sciences, Royal Veterinary College, University of London, London, UK",
+        "Institute of Orthopaedics and Musculoskeletal Science, University College London, London, UK",
+        "Skeletal Biology Group, Comparative Biomedical Sciences, Royal Veterinary College, University of London, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Clinical Services and Sciences, Royal Veterinary College, University of London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I133836048"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Orthopaedics and Musculoskeletal Science, University College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Skeletal Biology Group, Comparative Biomedical Sciences, Royal Veterinary College, University of London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I133836048",
+            "https://openalex.org/I124357947"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033845970",
+        "display_name": "Rory J. Todhunter",
+        "orcid": "https://orcid.org/0000-0002-3116-1697"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205783295",
+          "display_name": "Cornell University",
+          "ror": "https://ror.org/05bnh6r87",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rory J. Todhunter",
+      "raw_affiliation_strings": [
+        "Cornell Veterinary Biobank, Cornell University, Ithaca, NY, USA",
+        "Department of Clinical Sciences, Cornell University, Ithaca, NY, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Cornell Veterinary Biobank, Cornell University, Ithaca, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Clinical Sciences, Cornell University, Ithaca, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I205783295"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039699545",
+        "display_name": "Gordon Blunn",
+        "orcid": "https://orcid.org/0000-0003-2141-7385"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I63072094",
+          "display_name": "University of Portsmouth",
+          "ror": "https://ror.org/03ykbk197",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63072094"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gordon Blunn",
+      "raw_affiliation_strings": [
+        "Institute of Orthopaedics and Musculoskeletal Science, University College London, London, UK",
+        "School of Pharmacy and Biomedical Sciences, University of Portsmouth, Portsmouth, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Orthopaedics and Musculoskeletal Science, University College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "raw_affiliation_string": "School of Pharmacy and Biomedical Sciences, University of Portsmouth, Portsmouth, UK",
+          "institution_ids": [
+            "https://openalex.org/I63072094"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112209777",
+        "display_name": "George Nuki",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "George Nuki",
+      "raw_affiliation_strings": [
+        "Institute for Genetics and Molecular Medicine, University of Edinburgh, Edinburgh, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Genetics and Molecular Medicine, University of Edinburgh, Edinburgh, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5020057358",
+        "display_name": "Andrew A. Pitsillides",
+        "orcid": "https://orcid.org/0000-0002-3861-998X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I124357947",
+          "display_name": "University of London",
+          "ror": "https://ror.org/04cw6st05",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I133836048",
+          "display_name": "Royal Veterinary College",
+          "ror": "https://ror.org/01wka8n18",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I133836048"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew A. Pitsillides",
+      "raw_affiliation_strings": [
+        "Skeletal Biology Group, Comparative Biomedical Sciences, Royal Veterinary College, University of London, London, UK. apitsillides@rvc.ac.uk",
+        "Skeletal Biology Group, Comparative Biomedical Sciences, Royal Veterinary College, University of London, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Skeletal Biology Group, Comparative Biomedical Sciences, Royal Veterinary College, University of London, London, UK. apitsillides@rvc.ac.uk",
+          "institution_ids": [
+            "https://openalex.org/I133836048"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Skeletal Biology Group, Comparative Biomedical Sciences, Royal Veterinary College, University of London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I133836048",
+            "https://openalex.org/I124357947"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 14.9316,
+  "has_fulltext": true,
+  "cited_by_count": 141,
+  "citation_normalized_percentile": {
+    "value": 0.99547557,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 90,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "15",
+    "issue": "5",
+    "first_page": "273",
+    "last_page": "287"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12249",
+    "display_name": "Veterinary Orthopedics and Neurology",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3404",
+      "display_name": "Small Animals"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/34",
+      "display_name": "Veterinary"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12249",
+      "display_name": "Veterinary Orthopedics and Neurology",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3404",
+        "display_name": "Small Animals"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/34",
+        "display_name": "Veterinary"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10105",
+      "display_name": "Osteoarthritis Treatment and Mechanisms",
+      "score": 0.9965000152587891,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2745",
+        "display_name": "Rheumatology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11149",
+      "display_name": "Veterinary Oncology Research",
+      "score": 0.9958999752998352,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/medicine",
+      "display_name": "Medicine",
+      "score": 0.9354501962661743
+    },
+    {
+      "id": "https://openalex.org/keywords/osteoarthritis",
+      "display_name": "Osteoarthritis",
+      "score": 0.6404147148132324
+    },
+    {
+      "id": "https://openalex.org/keywords/medline",
+      "display_name": "MEDLINE",
+      "score": 0.46077531576156616
+    },
+    {
+      "id": "https://openalex.org/keywords/physical-medicine-and-rehabilitation",
+      "display_name": "Physical medicine and rehabilitation",
+      "score": 0.36287903785705566
+    },
+    {
+      "id": "https://openalex.org/keywords/alternative-medicine",
+      "display_name": "Alternative medicine",
+      "score": 0.28139907121658325
+    },
+    {
+      "id": "https://openalex.org/keywords/pathology",
+      "display_name": "Pathology",
+      "score": 0.16326361894607544
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.9354501962661743
+    },
+    {
+      "id": "https://openalex.org/C2776164576",
+      "wikidata": "https://www.wikidata.org/wiki/Q62736",
+      "display_name": "Osteoarthritis",
+      "level": 3,
+      "score": 0.6404147148132324
+    },
+    {
+      "id": "https://openalex.org/C2779473830",
+      "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+      "display_name": "MEDLINE",
+      "level": 2,
+      "score": 0.46077531576156616
+    },
+    {
+      "id": "https://openalex.org/C99508421",
+      "wikidata": "https://www.wikidata.org/wiki/Q2678675",
+      "display_name": "Physical medicine and rehabilitation",
+      "level": 1,
+      "score": 0.36287903785705566
+    },
+    {
+      "id": "https://openalex.org/C204787440",
+      "wikidata": "https://www.wikidata.org/wiki/Q188504",
+      "display_name": "Alternative medicine",
+      "level": 2,
+      "score": 0.28139907121658325
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.16326361894607544
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000818",
+      "descriptor_name": "Animals",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004195",
+      "descriptor_name": "Disease Models, Animal",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004195",
+      "descriptor_name": "Disease Models, Animal",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004195",
+      "descriptor_name": "Disease Models, Animal",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004283",
+      "descriptor_name": "Dog Diseases",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004283",
+      "descriptor_name": "Dog Diseases",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004283",
+      "descriptor_name": "Dog Diseases",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004283",
+      "descriptor_name": "Dog Diseases",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004283",
+      "descriptor_name": "Dog Diseases",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004283",
+      "descriptor_name": "Dog Diseases",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004285",
+      "descriptor_name": "Dogs",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004285",
+      "descriptor_name": "Dogs",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004285",
+      "descriptor_name": "Dogs",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "Q000473",
+      "qualifier_name": "pathology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "Q000662",
+      "qualifier_name": "veterinary",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "Q000662",
+      "qualifier_name": "veterinary",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D010003",
+      "descriptor_name": "Osteoarthritis",
+      "qualifier_ui": "Q000662",
+      "qualifier_name": "veterinary",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "id": "doi:10.1038/s41584-019-0202-1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41584-019-0202-1",
+      "pdf_url": "https://www.nature.com/articles/s41584-019-0202-1.pdf",
+      "source": {
+        "id": "https://openalex.org/S78310130",
+        "display_name": "Nature Reviews Rheumatology",
+        "issn_l": "1759-4790",
+        "issn": [
+          "1759-4790",
+          "1759-4804"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature Reviews Rheumatology",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:30953036",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/30953036",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Nature reviews. Rheumatology",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:researchportal.port.ac.uk:publications/c4fe3af5-456e-4b29-8050-0417b4a37608",
+      "is_oa": true,
+      "landing_page_url": "https://researchportal.port.ac.uk/portal/en/publications/spontaneous-dog-osteoarthritis--a-one-medicine-vision(c4fe3af5-456e-4b29-8050-0417b4a37608).html",
+      "pdf_url": "https://researchportal.port.ac.uk/ws/files/14754374/Spontaneous_Dog_Osteoarthritis_post_print.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401774",
+        "display_name": "Portsmouth Research Portal (University of Portsmouth)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I63072094",
+        "host_organization_name": "University of Portsmouth",
+        "host_organization_lineage": [
+          "https://openalex.org/I63072094"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": ""
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:7097182",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/7097182",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Nat Rev Rheumatol",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:researchonline.rvc.ac.uk:12021",
+      "is_oa": true,
+      "landing_page_url": "https://researchonline.rvc.ac.uk/id/eprint/12021/1/12021.pdf",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402069",
+        "display_name": "RVC Research Online (Royal Veterinary College)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I133836048",
+        "host_organization_name": "Royal Veterinary College",
+        "host_organization_lineage": [
+          "https://openalex.org/I133836048"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1038/s41584-019-0202-1",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1038/s41584-019-0202-1",
+    "pdf_url": "https://www.nature.com/articles/s41584-019-0202-1.pdf",
+    "source": {
+      "id": "https://openalex.org/S78310130",
+      "display_name": "Nature Reviews Rheumatology",
+      "issn_l": "1759-4790",
+      "issn": [
+        "1759-4790",
+        "1759-4804"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319908",
+      "host_organization_name": "Nature Portfolio",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319908",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Nature Portfolio",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Nature Reviews Rheumatology",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320325611",
+      "display_name": "Veterin\u00e4rmedizinische Universit\u00e4t Wien",
+      "ror": "https://ror.org/01w6qp003"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W2934456397.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W2934456397.grobid-xml"
+  },
+  "referenced_works_count": 305,
+  "referenced_works": [
+    "https://openalex.org/W8354991",
+    "https://openalex.org/W41470836",
+    "https://openalex.org/W42442342",
+    "https://openalex.org/W60149835",
+    "https://openalex.org/W106246764",
+    "https://openalex.org/W114860121",
+    "https://openalex.org/W129555273",
+    "https://openalex.org/W137522850",
+    "https://openalex.org/W261187742",
+    "https://openalex.org/W1497928516",
+    "https://openalex.org/W1526883128",
+    "https://openalex.org/W1539517867",
+    "https://openalex.org/W1540112528",
+    "https://openalex.org/W1571661428",
+    "https://openalex.org/W1572837040",
+    "https://openalex.org/W1579261000",
+    "https://openalex.org/W1584910921",
+    "https://openalex.org/W1602129583",
+    "https://openalex.org/W1661266857",
+    "https://openalex.org/W1718779047",
+    "https://openalex.org/W1826175215",
+    "https://openalex.org/W1830324090",
+    "https://openalex.org/W1834905118",
+    "https://openalex.org/W1860087536",
+    "https://openalex.org/W1894748892",
+    "https://openalex.org/W1908951960",
+    "https://openalex.org/W1915576758",
+    "https://openalex.org/W1937396975",
+    "https://openalex.org/W1958212302",
+    "https://openalex.org/W1964564739",
+    "https://openalex.org/W1965584525",
+    "https://openalex.org/W1966066497",
+    "https://openalex.org/W1966713817",
+    "https://openalex.org/W1967174407",
+    "https://openalex.org/W1968652079",
+    "https://openalex.org/W1969221593",
+    "https://openalex.org/W1969977416",
+    "https://openalex.org/W1970813968",
+    "https://openalex.org/W1970900689",
+    "https://openalex.org/W1971088842",
+    "https://openalex.org/W1971778765",
+    "https://openalex.org/W1971932480",
+    "https://openalex.org/W1974377927",
+    "https://openalex.org/W1974403367",
+    "https://openalex.org/W1974501028",
+    "https://openalex.org/W1975508346",
+    "https://openalex.org/W1975859070",
+    "https://openalex.org/W1978019325",
+    "https://openalex.org/W1986604667",
+    "https://openalex.org/W1986756859",
+    "https://openalex.org/W1987093895",
+    "https://openalex.org/W1990875302",
+    "https://openalex.org/W1991483458",
+    "https://openalex.org/W1992142862",
+    "https://openalex.org/W1992493201",
+    "https://openalex.org/W1994734693",
+    "https://openalex.org/W1997249592",
+    "https://openalex.org/W1997790206",
+    "https://openalex.org/W1998482813",
+    "https://openalex.org/W1999332338",
+    "https://openalex.org/W1999473975",
+    "https://openalex.org/W1999893828",
+    "https://openalex.org/W2000327776",
+    "https://openalex.org/W2000770113",
+    "https://openalex.org/W2001984030",
+    "https://openalex.org/W2002637628",
+    "https://openalex.org/W2003215910",
+    "https://openalex.org/W2003218533",
+    "https://openalex.org/W2005827205",
+    "https://openalex.org/W2007531401",
+    "https://openalex.org/W2008196807",
+    "https://openalex.org/W2008383502",
+    "https://openalex.org/W2009078544",
+    "https://openalex.org/W2010312196",
+    "https://openalex.org/W2012318057",
+    "https://openalex.org/W2013169990",
+    "https://openalex.org/W2013425290",
+    "https://openalex.org/W2013767402",
+    "https://openalex.org/W2014035071",
+    "https://openalex.org/W2014396962",
+    "https://openalex.org/W2014791861",
+    "https://openalex.org/W2014857562",
+    "https://openalex.org/W2016761218",
+    "https://openalex.org/W2017006369",
+    "https://openalex.org/W2017693107",
+    "https://openalex.org/W2017924921",
+    "https://openalex.org/W2020055824",
+    "https://openalex.org/W2020751196",
+    "https://openalex.org/W2020862748",
+    "https://openalex.org/W2021555510",
+    "https://openalex.org/W2023174816",
+    "https://openalex.org/W2023221473",
+    "https://openalex.org/W2023244004",
+    "https://openalex.org/W2023454848",
+    "https://openalex.org/W2025855835",
+    "https://openalex.org/W2025901222",
+    "https://openalex.org/W2028873015",
+    "https://openalex.org/W2029197450",
+    "https://openalex.org/W2034322069",
+    "https://openalex.org/W2034489898",
+    "https://openalex.org/W2036402829",
+    "https://openalex.org/W2038963849",
+    "https://openalex.org/W2042028253",
+    "https://openalex.org/W2043208053",
+    "https://openalex.org/W2046541394",
+    "https://openalex.org/W2046865541",
+    "https://openalex.org/W2048043322",
+    "https://openalex.org/W2048512680",
+    "https://openalex.org/W2049085025",
+    "https://openalex.org/W2049416423",
+    "https://openalex.org/W2049973631",
+    "https://openalex.org/W2050665504",
+    "https://openalex.org/W2051732725",
+    "https://openalex.org/W2052311754",
+    "https://openalex.org/W2052853106",
+    "https://openalex.org/W2053050257",
+    "https://openalex.org/W2055412526",
+    "https://openalex.org/W2056743394",
+    "https://openalex.org/W2057093576",
+    "https://openalex.org/W2057945219",
+    "https://openalex.org/W2058211473",
+    "https://openalex.org/W2060511130",
+    "https://openalex.org/W2060784315",
+    "https://openalex.org/W2062296525",
+    "https://openalex.org/W2062852254",
+    "https://openalex.org/W2070351304",
+    "https://openalex.org/W2070594519",
+    "https://openalex.org/W2071441738",
+    "https://openalex.org/W2072045614",
+    "https://openalex.org/W2074729698",
+    "https://openalex.org/W2076350981",
+    "https://openalex.org/W2076416869",
+    "https://openalex.org/W2077851629",
+    "https://openalex.org/W2078465186",
+    "https://openalex.org/W2079904737",
+    "https://openalex.org/W2080117793",
+    "https://openalex.org/W2080944036",
+    "https://openalex.org/W2081574718",
+    "https://openalex.org/W2083137536",
+    "https://openalex.org/W2089017693",
+    "https://openalex.org/W2089418018",
+    "https://openalex.org/W2089774690",
+    "https://openalex.org/W2090499977",
+    "https://openalex.org/W2092365735",
+    "https://openalex.org/W2093017331",
+    "https://openalex.org/W2094420410",
+    "https://openalex.org/W2096287757",
+    "https://openalex.org/W2098147429",
+    "https://openalex.org/W2098249388",
+    "https://openalex.org/W2101195287",
+    "https://openalex.org/W2101454456",
+    "https://openalex.org/W2101791609",
+    "https://openalex.org/W2102838907",
+    "https://openalex.org/W2104791770",
+    "https://openalex.org/W2104891172",
+    "https://openalex.org/W2106179455",
+    "https://openalex.org/W2106504747",
+    "https://openalex.org/W2108146806",
+    "https://openalex.org/W2108242700",
+    "https://openalex.org/W2114072069",
+    "https://openalex.org/W2114376947",
+    "https://openalex.org/W2115379063",
+    "https://openalex.org/W2116688715",
+    "https://openalex.org/W2117751776",
+    "https://openalex.org/W2118356843",
+    "https://openalex.org/W2118963985",
+    "https://openalex.org/W2125264470",
+    "https://openalex.org/W2128468094",
+    "https://openalex.org/W2129849931",
+    "https://openalex.org/W2130727984",
+    "https://openalex.org/W2137544255",
+    "https://openalex.org/W2137567737",
+    "https://openalex.org/W2139736838",
+    "https://openalex.org/W2140644600",
+    "https://openalex.org/W2140803716",
+    "https://openalex.org/W2141619324",
+    "https://openalex.org/W2144043534",
+    "https://openalex.org/W2146696300",
+    "https://openalex.org/W2147047288",
+    "https://openalex.org/W2147273993",
+    "https://openalex.org/W2149241337",
+    "https://openalex.org/W2149839914",
+    "https://openalex.org/W2149953008",
+    "https://openalex.org/W2150683839",
+    "https://openalex.org/W2152293853",
+    "https://openalex.org/W2152362368",
+    "https://openalex.org/W2155109953",
+    "https://openalex.org/W2155271790",
+    "https://openalex.org/W2155742497",
+    "https://openalex.org/W2155838440",
+    "https://openalex.org/W2157641144",
+    "https://openalex.org/W2160639616",
+    "https://openalex.org/W2161724235",
+    "https://openalex.org/W2161768559",
+    "https://openalex.org/W2167933345",
+    "https://openalex.org/W2170175151",
+    "https://openalex.org/W2171794065",
+    "https://openalex.org/W2172221624",
+    "https://openalex.org/W2177948940",
+    "https://openalex.org/W2182686830",
+    "https://openalex.org/W2194652651",
+    "https://openalex.org/W2196092246",
+    "https://openalex.org/W2204407480",
+    "https://openalex.org/W2242156112",
+    "https://openalex.org/W2258022810",
+    "https://openalex.org/W2260455728",
+    "https://openalex.org/W2261629282",
+    "https://openalex.org/W2268306343",
+    "https://openalex.org/W2269586341",
+    "https://openalex.org/W2296941874",
+    "https://openalex.org/W2299000164",
+    "https://openalex.org/W2302383575",
+    "https://openalex.org/W2315670396",
+    "https://openalex.org/W2320112291",
+    "https://openalex.org/W2321835026",
+    "https://openalex.org/W2323377731",
+    "https://openalex.org/W2328004099",
+    "https://openalex.org/W2334703889",
+    "https://openalex.org/W2334923042",
+    "https://openalex.org/W2344124859",
+    "https://openalex.org/W2359991959",
+    "https://openalex.org/W2394836897",
+    "https://openalex.org/W2396898998",
+    "https://openalex.org/W2399493209",
+    "https://openalex.org/W2400054552",
+    "https://openalex.org/W2400585268",
+    "https://openalex.org/W2402421560",
+    "https://openalex.org/W2402683959",
+    "https://openalex.org/W2403270829",
+    "https://openalex.org/W2404646769",
+    "https://openalex.org/W2404793518",
+    "https://openalex.org/W2407929467",
+    "https://openalex.org/W2409110945",
+    "https://openalex.org/W2409309371",
+    "https://openalex.org/W2409879198",
+    "https://openalex.org/W2410789763",
+    "https://openalex.org/W2410816250",
+    "https://openalex.org/W2410897248",
+    "https://openalex.org/W2410979257",
+    "https://openalex.org/W2412415827",
+    "https://openalex.org/W2413132269",
+    "https://openalex.org/W2413430612",
+    "https://openalex.org/W2414055847",
+    "https://openalex.org/W2414320554",
+    "https://openalex.org/W2414901762",
+    "https://openalex.org/W2415717541",
+    "https://openalex.org/W2416164959",
+    "https://openalex.org/W2416532820",
+    "https://openalex.org/W2417907160",
+    "https://openalex.org/W2418080762",
+    "https://openalex.org/W2418161203",
+    "https://openalex.org/W2418299087",
+    "https://openalex.org/W2418697836",
+    "https://openalex.org/W2419281353",
+    "https://openalex.org/W2429978851",
+    "https://openalex.org/W2438123340",
+    "https://openalex.org/W2460464641",
+    "https://openalex.org/W2460819437",
+    "https://openalex.org/W2472877294",
+    "https://openalex.org/W2474319026",
+    "https://openalex.org/W2509968615",
+    "https://openalex.org/W2517792044",
+    "https://openalex.org/W2531292545",
+    "https://openalex.org/W2544383185",
+    "https://openalex.org/W2553960461",
+    "https://openalex.org/W2578745593",
+    "https://openalex.org/W2587245518",
+    "https://openalex.org/W2592382072",
+    "https://openalex.org/W2598154369",
+    "https://openalex.org/W2602337957",
+    "https://openalex.org/W2602753219",
+    "https://openalex.org/W2605059229",
+    "https://openalex.org/W2606201973",
+    "https://openalex.org/W2619641118",
+    "https://openalex.org/W2621071077",
+    "https://openalex.org/W2626932867",
+    "https://openalex.org/W2733511814",
+    "https://openalex.org/W2744955864",
+    "https://openalex.org/W2762443209",
+    "https://openalex.org/W2765096927",
+    "https://openalex.org/W2765335225",
+    "https://openalex.org/W2767810520",
+    "https://openalex.org/W2773785077",
+    "https://openalex.org/W2774656311",
+    "https://openalex.org/W2790313400",
+    "https://openalex.org/W2791973076",
+    "https://openalex.org/W2796133479",
+    "https://openalex.org/W2806147106",
+    "https://openalex.org/W2883210115",
+    "https://openalex.org/W2901136049",
+    "https://openalex.org/W2914858358",
+    "https://openalex.org/W2924804239",
+    "https://openalex.org/W2991864573",
+    "https://openalex.org/W3144590493",
+    "https://openalex.org/W4236018099",
+    "https://openalex.org/W4244174611",
+    "https://openalex.org/W4245112387",
+    "https://openalex.org/W4246333515",
+    "https://openalex.org/W4297819594",
+    "https://openalex.org/W4297936565",
+    "https://openalex.org/W4299725908",
+    "https://openalex.org/W6653755762",
+    "https://openalex.org/W6658864223",
+    "https://openalex.org/W6675373858",
+    "https://openalex.org/W7075604058"
+  ],
+  "related_works": [
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W3031052312",
+    "https://openalex.org/W4389568370",
+    "https://openalex.org/W3032375762",
+    "https://openalex.org/W1995515455",
+    "https://openalex.org/W2080531066",
+    "https://openalex.org/W2586801360",
+    "https://openalex.org/W3108674512",
+    "https://openalex.org/W1506200166",
+    "https://openalex.org/W1489783725"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 52
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-06-28T08:01:55.173337",
+  "created_date": "2025-10-10T00:00:00"
+}
